@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Fitness</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+</head>
+<body>
+
+  <!-- header -->
+  <header id="header" class="">
+
+    <div id="pc_nav">
+      <nav class="topnav" id="myTopnav">
+        <h1>Fitness</h1>
+        <ul class="text_fff ">
+          <li>Home</li>
+          <li>Service</li>
+          <li>Contact</li>
+          <li>About</li>
+        </ul>
+      </nav>
+    </div>
+    
+    <div id="mobile_nav">
+      <nav class="topnav" id="myTopnav">
+        <h1>Fitness</h1>
+        <ul class="text_fff">
+          <li><span onclick="openNav()" class="btn">&#9776;</span></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    
+
+    <section id="hero">
+      <div class="col_50">
+        <h1 id="hero_h" class="text_fff">Get body in <br/><span>shape</span> & stay<br/> healthy</h1>
+        <p id="hero_p" class="text_gray">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+        <div id="hero_btn">
+          <a href="#" class="btn bg_orang text_fff" title="">Join Club Now!</a>
+          <a href="#" class="btn bg_trans text_fff" title="">Download App</a>
+        </div>
+      </div>
+      <div id="hero_top_right" class="col_50">
+        <div class="right_top_text bg_blar">
+          <h4 class="text_fff">500+</h4>
+          <p class="text_gray">Free Workout Videos</p>
+        </div>
+        <div class="right_bottom_text bg_blar">
+          <div id="icon" class="bg_orang">.</div>
+          <div id="right_bottom_text_sub">
+            <h4 class="text_fff">300+</h4>
+            <p class="text_gray">Video tutorial</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </header>
+  <!-- header -->
+
+  <!-- first section -->
+  <section id="first_section">
+
+    <div id="first_section_bannar">
+      <h1 class="text_fff">Change Your Habits</h1>
+      <p class="text_gray">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+    </div>
+    <div class="first_section_card">
+      <div class="col_25">
+        <img src="images/image3.png" alt="">
+        <h2 class="text_fff">Movement</h2>
+        <p class="text_gray">We believe fitness should be accessible to everyone</p>
+      </div>
+      <div class="col_25">
+        <img src="images/image2.png" alt="">
+        <h2 class="text_fff">Time</h2>
+        <p class="text_gray">We believe fitness should be accessible to everyone</p>
+      </div>
+      <div class="col_25">
+        <img src="images/image4.png" alt="">
+        <h2 class="text_fff">Practice</h2>
+        <p class="text_gray">We believe fitness should be accessible to everyone</p>
+      </div>
+      <div class="col_25">
+        <img src="images/image5.png" alt="">
+        <h2 class="text_fff">Weight Loss</h2>
+        <p class="text_gray">We believe fitness should be accessible to everyone</p>
+      </div>
+    </div>
+    
+  </section>
+  <!-- first section -->
+
+  <!-- second section -->
+  <section id="section_section" class="bg_gray">
+
+    <div class="col_50">
+      <h1 class="text_fff">Run an Extra <br/>Mile Easily</h1>
+      <p class="text_gray">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+      <a href="#" class="btn bg_orang text_fff" title="">Join Club</a>
+    </div>
+    <div class="col_50">
+      <img src="images/run.jpg" alt="">
+    </div>
+
+  </section>
+  <!-- second section -->
+
+  <!-- third section -->
+  <section id="third_section">
+
+    <h1 class="text_fff">Training and Exercises</h1>
+    <p class="text_gray">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+
+    <div id="galary">
+      <div class="galary_row_1">
+        <img src="images/exercise1.jpg" alt="">
+        <img src="images/exercise2.png" alt="">
+        <img src="images/exercise3.png" alt="">
+      </div>
+      <div class="galary_row_2">
+        <img src="images/exercise4.png" alt="">
+        <img src="images/exercise5.jpg" alt="">
+        <img src="images/exercise6.jpg" alt="">
+      </div>
+    </div>
+
+  </section>
+  <!-- third section -->
+
+  <!-- forth section -->
+  <section id="forth_section">
+
+    <div id="forth_section_bannar">
+      <h1 class="text_fff">BMI Calculator</h1>
+      <p class="text_gray">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+    </div>
+    <div id="forth_section_calculator" class="bg_gray">
+      <div class="col_50">
+        <h4 class="text_fff">BMI Calculator Chart</h4>
+        <table>
+          <tr>
+            <th class="text_fff">BMI</th>
+            <th class="text_fff">Weight Status</th>
+          </tr>
+          <tr>
+            <td class="text_gray">Below 18.5</td>
+            <td class="text_gray">Underweight</td>
+          </tr>
+          <tr>
+            <td class="text_gray">18.5 - 24.9</td>
+            <td class="text_gray">Healthy</td>
+          </tr>
+          <tr>
+            <td class="text_gray">25.0 - 29.9</td>
+            <td class="text_gray">Overweight</td>
+          </tr>
+          <tr>
+            <td class="text_gray">30.0 - and Above</td>
+            <td class="text_gray">Obese</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col_50">
+        <h4 class="text_fff">BMI Calculator Chart</h4>
+        <p class="text_gray">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+        <form action="#" method="POST" accept-charset="utf-8" class="forth_section_calculator_form">
+          <div class="forth_section_calculator_form_row">
+            <input type="text" name="" value="" placeholder="Height/cm">
+            <input type="text" name="" value="" placeholder="Weight/kg">
+          </div>
+          <div class="forth_section_calculator_form_row">
+            <input type="text" name="" value="" placeholder="Age">
+            <select name="">
+              <option value="">sex</option>
+              <option value="">male</option>
+              <option value="">female</option>
+            </select>
+            <!-- <input type="text" name="" value="" placeholder="Weight/kg"> -->
+          </div>
+          <div class="forth_section_calculator_form_row_1">
+            <select name="">
+              <option value="">Select an activity factor</option>
+              <option value="">factor A</option>
+              <option value="">factor B</option>
+            </select>
+            <!-- <input type="text" name="" value="" placeholder="Height/cm"> -->
+          </div>
+          <a href="#" class="btn bg_orang text_fff" title="">Calculate</a>
+        </form>
+      </div>
+    </div>
+
+  </section>
+  <!-- forth section -->
+
+  <!-- fifth section -->
+  <section id="fifth_section">
+    
+    <h1 class="text_fff">Meet Our Team</h1>
+    <p class="text_gray">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+    <div class="fifth_section_row_previous">
+      <div id="fifth_section_row" class="bg_gray">
+         <div class="image">
+          <h1 class="text_fff">Jerome Bell</h1>
+          <p class="text_gray">Trainer</p>
+         </div>
+         <div class="image">
+          <h1 class="text_fff">Cameron Williamson</h1>
+          <p class="text_gray">Trainer</p>
+         </div>
+         <div class="image">
+          <h1 class="text_fff">Darrell Steward</h1>
+          <p class="text_gray">Trainer</p>
+         </div>
+      </div>
+      <div id="fifth_section_row_1" class="bg_gray">
+         <div class="image">
+          <h1 class="text_fff">Dianne Russell</h1>
+          <p class="text_gray">Trainer</p>
+         </div>
+         <div class="image">
+          <h1 class="text_fff">Cody Fisher</h1>
+          <p class="text_gray">Trainer</p>
+         </div>
+         <div class="image">
+          <h1 class="text_fff">Theresa Webb</h1>
+          <p class="text_gray">Trainer</p>
+         </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- fifth section -->
+
+  <!-- footer -->
+  <footer class="bg_gray">
+
+    <div class="col_50">
+      <h1>Fitness</h1>
+      <p class="text_gray">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+    </div>
+    <div class="col_50">
+      <div class="footer_menu">
+        <h1 class="text_fff">Get Started</h1>
+        <ul class="text_gray">
+          <li>Service</li>
+          <li>Contact Us</li>
+          <li>Affiliate Program</li>
+          <li>About Us</li>
+        </ul>
+      </div>
+      <div class="footer_menu">
+        <h1 class="text_fff">Get Started</h1>
+        <ul class="text_gray">
+          <li>Fitness</li>
+          <li>Platform</li>
+          <li>Workout Libary</li>
+          <li>App Design</li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+  <!-- footer -->
+  
+<script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+</script>
+</body>
+</html>
